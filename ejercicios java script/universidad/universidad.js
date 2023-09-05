@@ -9,5 +9,11 @@
 // esta trasferencia.
 
 
+let tipodeatencion = [
+
+   const  telefonica =
+   const oficiona =
+]
+
 let maestro =[]
 let alumno =[]
