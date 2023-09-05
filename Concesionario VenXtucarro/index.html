@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concesionario: VenXtucarro</title>
+</head>
+<body>
+    <h1>Concesionario: VenXtucarro</h1>
+
+    <label for="marca">Selecciona una marca de carros:</label>
+    <select id="marca">
+      <option value="chevrolet">Chevrolet</option>
+      <option value="mazda">Mazda</option>
+      <option value="renault">Renault</option>
+    </select>
+  
+    <label for="referencia">Selecciona una referencia:</label>
+    <select id="referencia">
+      <optgroup label="Chevrolet">
+        <option value="captiva">Captiva</option>
+        <option value="tracker">Tracker</option>
+      </optgroup>
+  
+      <optgroup label="Mazda">
+        <option value="cx5">CX-5</option>
+        <option value="mazda3">Mazda3</option>
+      </optgroup>
+  
+      <optgroup label="Renault">
+        <option value="sandero">Sandero</option>
+        <option value="duster">Duster</option>
+      </optgroup>
+    </select>
+  
+    <button onclick="mostrarInformacion()">Mostrar Información</button>
+  
+    <div id="informacion"></div> 
+    <script src="Consecionario.js"></script> 
+</body>
+</html>

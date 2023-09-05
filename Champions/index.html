@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UEFA Champions League</title>
+</head>
+<body>
+    <h1>Champions League</h1>
+
+    <h2>Ingreso de Resultados</h2>
+    <div>
+        <label for="equipo1">Equipo 1:</label>
+        <input type="text" id="equipo1">
+        <br>
+        <label for="marcador1">Marcador Equipo 1:</label>
+        <input type="number" id="marcador1">
+        <br>
+        <label for="equipo2">Equipo 2:</label>
+        <input type="text" id="equipo2">
+        <br>
+        <label for="marcador2">Marcador Equipo 2:</label>
+        <input type="number" id="marcador2">
+        <br>
+        <button onclick="ingresarResultado()">Ingresar Resultado</button>
+    </div>
+<script src="champions.js"></script>
+    <h2>Resultados</h2>
+    <div id="resultados"></div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voto electronico</title>
+</head>
+<body>
+  <h1>Voto electronico</h1>
+
+  <h2> Votantes</h2>
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre">
+
+  <label for="edad">Edad:</label>
+  <input type="number" id="edad">
+
+  <button onclick="registrarVotante()">Registrar Votante</button>
+
+  <h2>Votación</h2>
+  <label for="candidato">Seleccione un candidato:</label>
+  <select id="candidato">
+    <option value="1">Ana Maria Suarez</option>
+    <option value="2">Diego Acero</option>
+  </select>
+
+  <button onclick="votar()">Votar</button>
+
+  <h2>Resultados</h2>
+  <p id="resultado"></p>
+
+  <p id="resultado"></p>
+    <script src="voto.js"></script>
+</body>
+</html>
